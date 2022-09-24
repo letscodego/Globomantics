@@ -20,8 +20,8 @@ namespace Globomantics.IdentityServer.Initialization
             catch (Exception)
             {
                 // If the database is not available yet just wait and try again
-                Thread.Sleep(TimeSpan.FromSeconds(15));
-                app.ApplyDatabaseSchema();
+                //Thread.Sleep(TimeSpan.FromSeconds(15));
+                //app.ApplyDatabaseSchema();
             }
         }
     }

@@ -147,7 +147,7 @@ namespace Globomantics.IdentityServer
                     }
                 };
             });
-
+            app.UseDeveloperExceptionPage();
             app.UseRouting();
             app.UseIdentityServer();
             app.UseAuthorization();

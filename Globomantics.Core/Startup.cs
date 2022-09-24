@@ -134,7 +134,7 @@ namespace Globomantics.Core
                     }
                 };
             });
-
+            app.UseDeveloperExceptionPage();
             app.UseRouting();
             app.UseAuthentication();
             app.UseAuthorization();
